@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Dalibor Stanojlovic, a web developer specializing in frontend and backend development.">
+    <meta name="keywords" content="Dalibor Stanojlovic, web developer, frontend development, backend development, portfolio">
+    <meta name="author" content="Dalibor Stanojlovic">
+    <meta name="robots" content="index, follow">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Dalibor<span> Stanojlovic</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education & Experience</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It’s<span> Dalibor</span></h1>
+            <h3 class="text-animation">I’m a <span></span></h3>
+            <p>
+                Welcome! I'm Dalibor, a passionate web developer with experience in creating modern, responsive, 
+                and functional web applications. My skills encompass both frontend and backend development, 
+                with a focus on user experience and code efficiency.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-telegram'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education & Experience</h2>
+
+        <div class="timeline-items">
+            <div class="timeline-item"> 
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2006</div>
+                <div class="timeline-content">
+                    <h3>Technical School</h3>
+                    <p>Graduated with a focus on electrical engineering.</p>
+                </div>
+            </div>
+            <!-- Add other timeline items similarly -->
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Graphic Design</h4>
+                    <p>Design logos, brochures, and other marketing materials.</p>
+                </div>
+            </div>
+            <!-- Add other service boxes similarly -->
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="heading">Testimonials</h2>
+
+        <div class="wrapper">
+            <div class="testimonials-item">
+                <img src="1.jpg" alt="Client Photo">
+                <h2>Tanya</h2>
+                <div class="rating"></div>
+                <p>"It was a great experience working with you. You were very professional and efficient."</p>
+            </div>
+            <!-- Add other testimonials similarly -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Email Subject" required>
+                </div>
+            </div>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
